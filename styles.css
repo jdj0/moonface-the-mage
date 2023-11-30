@@ -42,7 +42,7 @@ video {
 .artist-title {
     color: white;
     opacity: 0.3;
-    font-size: 18vw;
+    font-size: 15vw;
     font-family: 'EB Garamond', serif;
 }
 
@@ -72,14 +72,26 @@ video {
 .text-side {
     color: white;
     background-color: #141414;
-    padding: 10%;
+    padding: 7%;
+}
+
+.about-text{
+    margin: 0;
+}
+
+.img-side{
+    padding: 7%;
 }
 
 .img-about {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    margin: 15px;
+}
+
+.page-break {
+    height: 3rem;
+    margin: 10px;
 }
 
 /* Media queries */
