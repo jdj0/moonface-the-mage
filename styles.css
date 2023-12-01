@@ -3,7 +3,7 @@ body, html {
     margin: 0;
 }
 
-/* Landing Page */
+/* Landing */
 .video-container {
     position: relative;
     width: 100%;
@@ -60,7 +60,7 @@ video {
     letter-spacing: .5rem;
 }
 
-/* About us section */
+/* About us */
 #about {
     background-color: #222327;
 }
@@ -92,6 +92,20 @@ video {
 .page-break {
     height: 3rem;
     margin: 10px;
+}
+
+
+
+/* Footer */
+.footer-title {
+    font-family: 'EB Garamond', serif;
+}
+.links {
+    margin: 10px;
+}
+
+.dev {
+    color: #141414;
 }
 
 /* Media queries */
