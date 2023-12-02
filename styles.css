@@ -4,6 +4,11 @@ body, html {
 }
 
 /* Landing */
+
+.navbar-brand{
+
+}
+
 .video-container {
     position: relative;
     width: 100%;
@@ -42,7 +47,7 @@ video {
 .artist-title {
     color: white;
     opacity: 0.3;
-    font-size: 15vw;
+    font-size: 13vw;
     font-family: 'EB Garamond', serif;
 }
 
@@ -104,7 +109,13 @@ video {
     margin: 10px;
 }
 
+.footer-links {
+    text-decoration: none;
+    color: inherit;
+}
+
 .dev {
+    margin-top: 10px !important;
     color: #141414;
 }
 
