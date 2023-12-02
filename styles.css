@@ -5,10 +5,6 @@ body, html {
 
 /* Landing */
 
-.navbar-brand{
-
-}
-
 .video-container {
     position: relative;
     width: 100%;
@@ -28,6 +24,11 @@ video {
 #NavBar {
     position: absolute;
     font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
 }
 
 .navbar-toggler {
@@ -85,7 +86,8 @@ video {
 }
 
 .img-side{
-    padding: 7%;
+    padding: 5%;
+    
 }
 
 .img-about {
@@ -99,6 +101,19 @@ video {
     margin: 10px;
 }
 
+
+/* Album */
+
+footer {
+    background-color: black;
+}
+.track-listing{
+    color: white;
+}
+
+.album-cover {
+    padding: 10%;
+}
 
 
 /* Footer */
@@ -116,7 +131,7 @@ video {
 
 .dev {
     margin-top: 10px !important;
-    color: #141414;
+    color: #313131;
 }
 
 /* Media queries */
@@ -127,9 +142,8 @@ video {
         z-index: 9999;
     }
 
-    .album-title {
-        font-size: 25vw;
-        -webkit-text-stroke: 1.2px black;
+    .artist-title {
+        font-size:18vw;
     }
 
     .album-subtitle {
