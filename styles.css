@@ -104,9 +104,6 @@ video {
 
 /* Album */
 
-footer {
-    background-color: black;
-}
 .track-listing{
     color: white;
 }
@@ -117,6 +114,11 @@ footer {
 
 
 /* Footer */
+
+footer {
+    background-color: black;
+}
+
 .footer-title {
     font-family: 'EB Garamond', serif;
 }
@@ -140,6 +142,10 @@ footer {
         position: absolute;
         width: 100%;
         z-index: 9999;
+    }
+
+    #album {
+        padding-top: 7%;
     }
 
     .artist-title {
