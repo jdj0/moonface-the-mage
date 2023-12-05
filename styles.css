@@ -104,13 +104,29 @@ video {
 
 /* Album */
 
+#album {
+    background-color: #222327;
+}
+
+.track-listing-title {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 2rem;
+}
+
 .track-listing{
     color: white;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 1rem;
 }
 
 .album-cover {
     padding: 10%;
 }
+
+h4 {
+    color: aliceblue;
+}
+
 
 
 /* Footer */
