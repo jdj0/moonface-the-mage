@@ -27,7 +27,7 @@ video {
 }
 
 #NavBar.navbar {
-    background-color: rgba(255, 255, 255, 0.1) !important; /* White color with 30% opacity */
+    background-color: rgba(255, 255, 255, 0.1) !important;
     width: 100vw;
 }
 
@@ -152,7 +152,7 @@ h4 {
 }
 
 .contact-img {
-    width: 75%;
+    max-width: 75%;
 }
 
 .contact-text {
