@@ -26,6 +26,11 @@ video {
     font-size: 20px;
 }
 
+#NavBar.navbar {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* White color with 30% opacity */
+    width: 100vw;
+}
+
 .navbar-brand {
     font-family: 'EB Garamond', serif;
     font-size: 2rem;
@@ -103,7 +108,6 @@ video {
 
 
 /* Album */
-
 #album {
     background-color: #222327;
 }
@@ -116,7 +120,7 @@ video {
 .track-listing{
     color: white;
     font-family: 'IM Fell DW Pica SC', serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .album-cover {
@@ -129,8 +133,43 @@ h4 {
 
 
 
-/* Footer */
+/* Contact */
+.contact-section{
+    background-color: #222327;
+    padding: 25px;
+}
 
+.contact-card {
+    padding: 1.5rem;
+    padding-bottom: 4rem;
+    background-color: #141414;
+}
+
+.contact-title {
+    color: white;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 3rem;
+}
+
+.contact-img {
+    width: 75%;
+}
+
+.contact-text {
+    color: white;
+}
+
+.last-line {
+    padding-bottom: 20px;
+}
+
+.first-line {
+    padding-top: 20px;
+}
+
+
+
+/* Footer */
 footer {
     background-color: black;
 }
@@ -170,5 +209,14 @@ footer {
 
     .album-subtitle {
         font-size: 5vw;
+    }
+
+    .contact-section{
+        padding: 0px;
+    }
+
+    .contact-card {
+        padding: 0rem;
+        background-color: #141414;
     }
 }
